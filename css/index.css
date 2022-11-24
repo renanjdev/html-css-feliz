@@ -1,6 +1,4 @@
-title {
-    text-align: center;
-}
+
 
 header {
     display: flex;
@@ -34,13 +32,19 @@ a::before {
     height: 50px;
 }
 
-#button-downloadCV {
+.button-downloadCV {
     display: inline-block;
     background-color: #3A4042;
     color: white;
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #000000;  
     margin-right: 0;
+    transition: 0.2s all;
+}
+
+.button-downloadCV:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
 
