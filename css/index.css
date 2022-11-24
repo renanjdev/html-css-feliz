@@ -2,10 +2,17 @@
 
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color:#AFD971;
     border-bottom: 10px solid #000000; 
     padding: 10px 20px;
-    justify-content: space-between;
+    
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
 }
 
 a {
@@ -27,11 +34,6 @@ a::before {
     margin-right: 10px;   
 } 
 
-#logo {
-    width: 50px;
-    height: 50px;
-}
-
 .button-downloadCV {
     display: inline-block;
     background-color: #3A4042;
@@ -39,17 +41,15 @@ a::before {
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #000000;  
     margin-right: 0;
-    transition: 0.2s all;
+    transition: transform 100ms linear;
 }
 
 .button-downloadCV:hover {
-    transform: scale(1.05);
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    transform: scale(1.08);
+    opacity: 0.96;
 }
 
 .effect:hover {
-
-    transform: scale(1.05);
-    text-shadow: 2px 2px 22px 1px rgba(0, 0, 0, 0.24) ;
-
+    transform: scale(1.08);
+    opacity: 0.96;
 }
