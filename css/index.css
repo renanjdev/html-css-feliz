@@ -80,7 +80,7 @@ a::before {
     text-align: center; 
  }
 
- .box-downloadCV2 {
+ .button-downloadCV2 {
     position: absolute;
     background-color: #AFD971;
     width: 170px;
@@ -88,26 +88,17 @@ a::before {
     left: 165px;
     top: 590px;
     padding: 18px 20px;
-    cursor: pointer;
-    margin-right: 0;
+      margin-right: 0;
     transition: transform 100ms linear;
+    filter: drop-shadow(5px 5px 0px #000000);
  }
 
- .box-downloadCV2:hover {
+ .button-downloadCV2:hover {
     transform: scale(1.08);
     opacity: 0.96;
  }
 
- #text-DownloadCV2 {
-   
-         
-    top: 600px;
-    font-family: Quantico, sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: #0b1426;
-    padding: 5px 20px;
+
     
 
- }
 
