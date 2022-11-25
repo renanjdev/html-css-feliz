@@ -66,19 +66,14 @@ a {
     box-shadow: 10px 10px 0px #000000;
 }
 
-#Title {
-   font-size: 60px; 
-   font-family: Quantico, sans-serif;;
-   color: #ffffff;
-   text-align: center;
-   padding-top: 45px; 
-}
 
-#SubTitle {  
+
+h2 {  
     font-size: 40px; 
     font-family: Quantico, sans-serif;;
     color: #AFD971;
     text-align: center; 
+    text-shadow: 4px 4px 1px #000000; 
  }
 
  .buttonmain-downloadCV {
@@ -92,9 +87,8 @@ a {
     left: 165px;
     top: 590px;
     transition: transform 100ms linear;
-    box-shadow: 5px 5px 0px #282b2c;
-    
-    
+    box-shadow: 5px 5px 0px #000000;
+      
  }
 
  .buttonmain-downloadCV:hover {
