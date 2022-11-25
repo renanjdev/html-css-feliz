@@ -27,7 +27,7 @@ a {
      margin-right:  30px;
 }
 
-a::before {
+.effect::before {
     content:"";
     background-color: #0b1426;
     width: 10px;
@@ -35,7 +35,7 @@ a::before {
     margin-right: 10px;   
 } 
 
-.button-downloadCV {
+.buttonnav-downloadCV {
     display: inline-block;
     background-color: #3A4042;
     color: white;
@@ -45,7 +45,7 @@ a::before {
     transition: transform 100ms linear;
 }
 
-.button-downloadCV:hover {
+.buttonnav-downloadCV:hover {
     transform: scale(1.08);
     opacity: 0.96;
 }
@@ -53,6 +53,7 @@ a::before {
 .effect:hover {
     transform: scale(1.08);
     opacity: 0.96;
+    color: rgb(67, 87, 39);
 }
 
 .box {
@@ -62,7 +63,7 @@ a::before {
     height: 188px;
     top: 355px;
     left: 80px; 
-    filter: drop-shadow(10px 10px 0px #000000);
+    box-shadow: 10px 10px 0px #000000;
 }
 
 #Title {
@@ -70,7 +71,7 @@ a::before {
    font-family: Quantico, sans-serif;;
    color: #ffffff;
    text-align: center;
-   padding: 30px 20px; 
+   padding-top: 45px; 
 }
 
 #SubTitle {  
@@ -80,23 +81,28 @@ a::before {
     text-align: center; 
  }
 
- .button-downloadCV2 {
+ .buttonmain-downloadCV {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     background-color: #AFD971;
     width: 170px;
-    height: 30px;
+    height: 61px;
     left: 165px;
     top: 590px;
-    padding: 18px 20px;
-      margin-right: 0;
     transition: transform 100ms linear;
-    filter: drop-shadow(5px 5px 0px #000000);
+    box-shadow: 5px 5px 0px #282b2c;
+    
+    
  }
 
- .button-downloadCV2:hover {
+ .buttonmain-downloadCV:hover {
     transform: scale(1.08);
-    opacity: 0.96;
+    background-color: #b5f556;
  }
+
+ 
 
 
     
