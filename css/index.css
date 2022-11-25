@@ -1,3 +1,7 @@
+body {
+    background-color: #0b1426;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -51,14 +55,6 @@ a::before {
     opacity: 0.96;
 }
 
-.background-foto {
-    display: flex;
-    background-color: #0b1426;
-    width: auto;
-    height: 760px;
-    top: 80px;
-}
-
 .box {
     position: absolute;
     background-color: #4C5B84;
@@ -66,6 +62,7 @@ a::before {
     height: 188px;
     top: 355px;
     left: 80px; 
+    filter: drop-shadow(10px 10px 0px #000000);
 }
 
 #Title {
@@ -81,5 +78,36 @@ a::before {
     font-family: Quantico, sans-serif;;
     color: #AFD971;
     text-align: center; 
+ }
+
+ .box-downloadCV2 {
+    position: absolute;
+    background-color: #AFD971;
+    width: 170px;
+    height: 30px;
+    left: 165px;
+    top: 590px;
+    padding: 18px 20px;
+    cursor: pointer;
+    margin-right: 0;
+    transition: transform 100ms linear;
+ }
+
+ .box-downloadCV2:hover {
+    transform: scale(1.08);
+    opacity: 0.96;
+ }
+
+ #text-DownloadCV2 {
+   
+         
+    top: 600px;
+    font-family: Quantico, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0b1426;
+    padding: 5px 20px;
+    
+
  }
 
