@@ -1,0 +1,24 @@
+.action {
+    display: inline-flex;
+    align-items: center;
+    color: #0b1426;
+    font-size: 20px;
+    font-family: Quantico, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right:  30px;
+}
+
+.action::before {
+   content:"";
+   background-color: #0b1426;
+   width: 10px;
+   height: 10px;
+   margin-right: 10px;   
+} 
+
+.action:hover {
+    transform: scale(1.08);
+    opacity: 0.96;
+    color: rgb(67, 87, 39);
+}
