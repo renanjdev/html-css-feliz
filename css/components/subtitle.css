@@ -1,7 +1,7 @@
-h2 {  
+.subtitle {  
     font-size: 40px; 
     font-family: Quantico, sans-serif;;
     color: #AFD971;
     text-align: center; 
-    text-shadow: 4px 4px 1px #000000; 
+    text-shadow: 3px 3px 0px #000000; 
  }
