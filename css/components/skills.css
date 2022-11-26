@@ -1,0 +1,23 @@
+.sectionSkills {
+    text-align: center;
+    font-family: Quantico, sans-serif;
+    background-color: #aFD971;
+    border-bottom: #2e4072;
+}
+
+.sectionSkills .skills {
+    font-size: 64px;
+    padding: 20px;
+
+}
+.sectionSkills .ico-html, .ico-css, .ico-js, .ico-react {
+    display: flex;
+    padding-left: 240px ;
+    padding-top: 100px;
+}
+
+.sectionSkills .ico-nodejs, .ico-tdd, .ico-restapi, .ico-ux {
+    display: flex;
+    padding-left: 767px;
+    padding-top: 100px;
+}
