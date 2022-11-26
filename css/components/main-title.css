@@ -1,11 +1,11 @@
-.title {
+.main-title {
     font-size: 70px; 
     font-family: Quantico, sans-serif;;
     color: #ffffff;
     text-shadow: 4px 4px 1px #000000;  
  }
 
- .title.-second {
+ .main-title.-second {
     color: #0b1426;
     text-shadow: none;
     text-align: center;
