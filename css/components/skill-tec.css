@@ -1,0 +1,18 @@
+.skill-tec {
+    display: flex;
+    font-family: Quantico, sans-serif;
+    font-size: 35px;
+    color: #0b1426;
+   
+}
+
+.skill-tec .icon {
+    margin-right: 25px;
+}
+
+.skill-tec .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
