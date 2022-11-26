@@ -17,8 +17,3 @@
    margin-right: 10px;   
 } 
 
-.action:hover {
-    transform: scale(1.08);
-    opacity: 0.96;
-    color: rgb(67, 87, 39);
-}
