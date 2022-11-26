@@ -2,7 +2,7 @@
     text-align: center;
     font-family: Quantico, sans-serif;
     background-color: #aFD971;
-    border-bottom: #2e4072;
+    border-bottom: 10px solid #2e4072;
 }
 
 .sectionSkills .skills {
@@ -21,3 +21,9 @@
     padding-left: 767px;
     padding-top: 100px;
 } 
+
+.sectionSkills .text-html {
+    font-size: 36px;
+    padding-left: 25px;
+    
+}
