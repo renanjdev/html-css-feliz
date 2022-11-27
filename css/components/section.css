@@ -9,3 +9,11 @@
     margin-bottom: 60px;
 }
 
+.section.-bgBlack {
+    background-color: #0b1426;
+
+}
+
+.section.-bdFirst {
+    border-color: #2e4072;
+}
