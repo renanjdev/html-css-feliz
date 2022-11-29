@@ -17,3 +17,11 @@
 .main-section.-bdFirst {
     border-color: #2e4072;
 }
+
+.main-section.-bgSecond {
+    background-color: #2e4072;
+}
+
+.main-section.-bdBlack {
+     border-color: #000;
+}
