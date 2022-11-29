@@ -1,9 +1,12 @@
 .main-banner {
     box-sizing: border-box;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
     background-image: url(../../assets/img/photo.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 730px;
+    background-size: cover;
+    
     border-bottom: 10px solid #000;
     padding-top: 89px;
     padding-left: 90px;
