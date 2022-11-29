@@ -1,4 +1,4 @@
-.button {
+.main-button {
     display: inline-block;
     background-color: #2e4072;
     color: white;
@@ -8,9 +8,15 @@
     transition: transform 100ms linear;
     font-size: 20px;
     text-decoration: none;
+    font-family: Quantico, sans-serif;
 }
 
-.button:hover {
+.main-button:hover {
     transform: scale(1.08);
     opacity: 0.96;
 } 
+
+.main-button.-second {
+    background-color: #AFD971;
+    color: #000000;  
+}
