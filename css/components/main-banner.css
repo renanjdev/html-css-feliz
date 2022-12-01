@@ -6,20 +6,23 @@
     background-image: url(../../assets/img/photo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
     border-bottom: 10px solid #000;
     padding-top: 89px;
     padding-left: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 
 .main-banner .wrapper {
-    display: flex;
-    flex-direction: column;
+   
     width: 640px;  
+    
 } 
 
 .main-banner .box {
+   
     margin-bottom: 40px;
 }
 
