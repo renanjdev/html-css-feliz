@@ -1,13 +1,28 @@
 .node-card {
-    display: flex;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
 
+.node-card::before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    height: 0px;
+    width: 40px;
+    border: 2.5px dashed #AFD971 ;
+    transform: rotate(90deg) translateX(-62%);
+    bottom: 200px;
 }
 
 .node-card .title {
     font-size: 25px;
     font-weight: 400;
-    color: AFD971;
+    color: #AFD971;
     font-family: Quantico, sans-serif;
+    margin-bottom: 50px;
 
 }
 
@@ -15,8 +30,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 140px;
-    border: 5px solid #000;
-    padding-left: 20px;
-    padding-right: 20px;
+    height: 200px;
+    border: 5px solid #AFD971;
+    
+}
+
+.node-card.-first {
+    background-color: ;
 }
