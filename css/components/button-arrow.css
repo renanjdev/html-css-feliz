@@ -2,16 +2,26 @@
     width: 50px;
     height: 50px;
     background-color: #0B1426;
-    box-shadow: 5px 5px 0px #2e4072;
+    box-shadow: 5px 5px 0px #000000;
     cursor: pointer;
 }
 
 .button-arrow::before {
-    display: block;
     content: '';
+    display: block;
     box-sizing: border-box;
     width: 15px;
     height: 15px;
-    border: 1px solid #2e4072;
+    border: 15px solid transparent;
     border-left: 28px solid white;
+    transform: translate(5px);
+}
+
+.button-arrow .content {
+    display: none;
+}
+
+.button-arrow.-left::before {
+    transform: rotate(180deg) translateX(12px);
+   
 }
