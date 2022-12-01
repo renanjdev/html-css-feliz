@@ -18,6 +18,8 @@
 
 .main-button.-second {
     background-color: #AFD971;
-    color: #000000;  
+    color: #000000; 
+    width: 130px; 
+    text-align: center;
 
 }
