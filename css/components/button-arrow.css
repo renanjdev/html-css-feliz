@@ -19,7 +19,11 @@
     transform: translate(5px);
 }
 
-.button-arrow .content {
+.button-arrow.-left .content {
+    display: none;
+}
+
+.button-arrow.-right .content {
     display: none;
 }
 
