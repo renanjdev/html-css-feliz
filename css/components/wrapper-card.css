@@ -2,10 +2,12 @@
     display: flex;
     justify-content: center;
     
+    
+    
 }
 
 .wrapper-card .logo:hover {
     transform: scale(1.08);
-    opacity: 0.96;
+    transition: transform 300ms linear;
     
 }
