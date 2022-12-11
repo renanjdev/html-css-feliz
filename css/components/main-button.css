@@ -28,5 +28,10 @@
     width: 100%;
     height: 40px;
     padding: 5px;
-   background-color: #0b1426;
+    background-color: #0b1426;
+    cursor: pointer;
 }
+
+.main-button.-full:hover {
+    transform: scale(1.02);
+} 
