@@ -23,3 +23,7 @@
     text-align: center;
 
 }
+
+.main-button.-full {
+    width: 100%;
+}
